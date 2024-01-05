@@ -21,7 +21,7 @@ export function Header() {
 
           <NavLink to="/orders">
             <UtensilsCrossed className="h-4 w-4" />
-            Início
+            Pedidos
           </NavLink>
         </nav>
 
