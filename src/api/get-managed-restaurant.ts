@@ -4,9 +4,7 @@ export interface GetManagedRestaurantResponse {
   id: string
   name: string
   description: string | null
-  email: string
-  phone: string
-  role: 'manager' | 'customer'
+  managerId: string
   createdAt: Date | null
   updatedAt: Date | null
 }
